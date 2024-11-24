@@ -21,6 +21,18 @@
 			"[$1]: {% post_url /_posts/$2 %}"
 		]
 	},
+	"postlink": {
+		"prefix": "postlink",
+		"body":[
+			"[$1]({% post_url /_posts/$2 %})"
+		]
+	},
+	"href": {
+		"prefix": "href",
+		"body":[
+			"<a href=\"/2024-11-20-graph/#正規化された隣接行列\">正規化された隣接行列</a>"
+		]
+	},
 	"def": {
 		"prefix": "def",
 		"body":[
@@ -48,5 +60,28 @@
 			"$1"
 		]
 	},
-	
+	"emph":{
+		"prefix": "emph",
+		"body":[
+			"<span style=\"color: tomato;\">**$1**</span>"
+		]
+	},
+	"template":{
+		"prefix": "template",
+		"body":[
+			"---",
+			"layout: post",
+			"title: $1",
+			"subtitle:",
+			"tags: [$2]",
+			"mathjax: true",
+			"---"
+		]
+	},
+	"allone":{
+		"prefix": "allone",
+		"body":[
+			"\\mathbf{1}"
+		]
+	},
 }
