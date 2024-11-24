@@ -1,0 +1,54 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="ページ1" id="UN2JhDTP8o6p0GtLcCoP">
+    <mxGraphModel dx="954" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vJWXmHTLhAb3lcC-VVJT-1" target="vJWXmHTLhAb3lcC-VVJT-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-1" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;0100010&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vJWXmHTLhAb3lcC-VVJT-5" target="vJWXmHTLhAb3lcC-VVJT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-5" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1011101010111&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="70" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-6" value="符号化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vJWXmHTLhAb3lcC-VVJT-7" target="vJWXmHTLhAb3lcC-VVJT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-7" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;101&lt;font color=&quot;#ff0000&quot;&gt;0&lt;/font&gt;10&lt;font color=&quot;#ff0000&quot;&gt;0&lt;/font&gt;01&lt;font color=&quot;#ff0000&quot;&gt;0&lt;/font&gt;111&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-9" value="いくつかのビットが反転" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-10" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;0100010&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-12" value="復号化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="70" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vJWXmHTLhAb3lcC-VVJT-14" value="反転したビットが少なければ&lt;div&gt;元の文字列を復元できる!&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="180" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
