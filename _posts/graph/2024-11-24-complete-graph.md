@@ -1,10 +1,13 @@
 ---
 layout: post
 title: 完全グラフ
-subtitle: 最も密なグラフ
-mathjax: true
+cover-img: /assets/img/graph-header.png
+thumbnail-img: /assets/img/graph-thumb.png
+share-img: /assets/img/graph-thumb.png
 tags: [グラフ]
+mathjax: true
 ---
+
 
 完全グラフとは, 有限集合$V$に対して$(V,\binom{V}{2})$で表されるグラフを指します. 多くの文献では$n$頂点の完全グラフは$K_n$で表記されます.
 

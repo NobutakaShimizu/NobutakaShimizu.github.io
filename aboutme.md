@@ -1,16 +1,11 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Me
+cover-img: assets/img/prof.jpg
+subtitle: 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+[清水 伸高](https://sites.google.com/view/nobutaka-shimizu/home)といいます. 理論計算機科学を専門にしているアカデミアの研究者です.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- アマチュアオーケストラに所属しており, ヴィオラという楽器を弾きます.
+-  より細かい専門としては, 計算量理論(特に平均時計算量)です. 具体的には純粋数学の様々な概念を計算量的な観点から追求することに興味があります. また, 数え上げが好きなので確率に関する話題も好きです.

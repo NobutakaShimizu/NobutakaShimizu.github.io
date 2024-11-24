@@ -36,34 +36,67 @@
 	"def": {
 		"prefix": "def",
 		"body":[
-			"{: .box-note} **定義.**"
+			"{: .box-def}",
+			"<div>",
+			"<b>定義.</b>",
+			"$1",
+			"</div>"
 		]
 	},
 	"prop": {
 		"prefix": "prop",
 		"body":[
-			"{: .box-warning} **命題.**",
-			"$1"
+			"{: .box-prop}",
+			"<div>",
+			"<b>命題.</b>",
+			"$1",
+			"</div>"
 		]
 	},
 	"lem": {
 		"prefix": "lem",
 		"body":[
-			"{: .box-warning} **補題.**",
-			"$1"
+			"{: .box-lem}",
+			"<div>",
+			"<b>補題.</b>",
+			"$1",
+			"</div>"
 		]
 	},
 	"thm": {
 		"prefix": "thm",
 		"body":[
-			"{: .box-error} **定理.**",
-			"$1"
+			"{: .box-thm}",
+			"<div>",
+			"<b>定理.</b>",
+			"$1",
+			"</div>"
+		]
+	},
+	"cor": {
+		"prefix": "cor",
+		"body":[
+			"{: .box-cor}",
+			"<div>",
+			"<b>系.</b>",
+			"$1",
+			"</div>"
+		]
+	},
+	"rem": {
+		"prefix": "rem",
+		"body":[
+			"{: .box-rem}",
+			"<div>",
+			"<b>注釈.</b>",
+			"$1",
+			"</div>"
 		]
 	},
 	"emph":{
 		"prefix": "emph",
 		"body":[
-			"<span style=\"color: tomato;\">**$1**</span>"
+			"<span style=\"color: tomato;\"><b>$1</b></span>"
 		]
 	},
 	"template":{
@@ -72,7 +105,9 @@
 			"---",
 			"layout: post",
 			"title: $1",
-			"subtitle:",
+			"cover-img: ",
+			"thumbnail-img: ",
+			"share-img: ",
 			"tags: [$2]",
 			"mathjax: true",
 			"---"
@@ -84,4 +119,13 @@
 			"\\mathbf{1}"
 		]
 	},
+	"itemize":{
+		"prefix": "itemize",
+		"body":[
+			"<ul>",
+			"\t<li>$1</li>",
+			"\t<li>$2</li>",
+			"</ul>"
+		]
+	}
 }
