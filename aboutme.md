@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-cover-img: assets/img/prof.jpg
+#cover-img: assets/img/prof.jpg
 subtitle: 
 ---
 
